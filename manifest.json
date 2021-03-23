@@ -1,0 +1,37 @@
+{
+  "name": "Bravado-2",
+  "description": "Add more keyboard shortcuts to meetings on Microsoft Teams",
+  "version": "0.1",
+  "icons": {
+    "64": "icon.png"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ],
+  "background": {
+    "persistent": false,
+    "scripts": ["setCommands.js"]
+  },
+  "commands": {
+    "hang-up": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+E"
+      },
+      "description": "Hang up"
+    },
+    "toggle-full-screen": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+X"
+      },
+      "description": "Toggle Full-screen mode"
+    },
+    "dismiss": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+U"
+      },
+      "description": "Dimiss the banner"
+    }
+  },
+  "manifest_version": 2
+}
