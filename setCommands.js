@@ -29,6 +29,12 @@
             code: "window.document.querySelector(\"button[aria-label*='Dismiss'\").click();"
           });
         }
+
+        if (command === "raise-hand") {
+          chrome.tabs.executeScript({
+            code: "window.document.querySelector('#raise-hand-button').click();"
+          });
+        }
       }
     });
   });

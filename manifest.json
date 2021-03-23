@@ -31,6 +31,12 @@
         "default": "Ctrl+Shift+U"
       },
       "description": "Dimiss the banner"
+    },
+    "raise-hand": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Y"
+      },
+      "description": "Raise hand"
     }
   },
   "manifest_version": 2
